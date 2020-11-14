@@ -1,0 +1,22 @@
+html {
+    background-color: red;
+}
+body{
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    position: relative;
+    top: 40px;
+    padding: 15px 0px;
+}
+
+nav a {
+     text-decoration: none;
+     display: inline-block;
+     width: 100px;
+     color: white;
+     margin: 0px 3%;
+}
