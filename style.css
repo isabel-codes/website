@@ -1,11 +1,13 @@
 html {
-    background-color: red;
+    background-color: #B89EB8;
+    border-top: 10px dotted #EDFFEC; 
 }
-body{
+
+body { 
     margin: 0px;
 }
 
-nav{
+nav {
     text-align: center;
     background-color: black;
     position: relative;
@@ -14,9 +16,24 @@ nav{
 }
 
 nav a {
-     text-decoration: none;
-     display: inline-block;
-     width: 100px;
-     color: white;
-     margin: 0px 3%;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    margin: 0px 3%;
+}
+
+
+img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -125px;
+}
+
+.about-me {
+    background-color: rgb(220, 245, 235);
 }
